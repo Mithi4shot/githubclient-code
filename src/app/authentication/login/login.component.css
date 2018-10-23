@@ -1,0 +1,48 @@
+.position
+{
+    position: absolute;
+    top: 4vh;
+}
+.login-form
+{
+    background: #414141;
+    padding: 0;
+    border-radius: 5px;
+}
+.login-form-title
+{
+    background: #414141;
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid #bdc1c4;
+    border-radius: 5px 5px 0 0;
+}
+.login-form-body-padding
+{
+    padding: 30px;
+}
+.form-username
+{
+    border-radius: 5px 5px 0 0;
+}
+.form-password
+{
+    border-radius: 0 0 5px 5px;
+}
+.btn-primary
+{
+    background: #229a90;
+    border: 1px solid #229a90;
+}
+.form-control:focus
+{
+    box-shadow: none;
+}
+.btn-primary:focus
+{
+    box-shadow: none;
+}
+.btn-primary:active 
+{
+    background-color: #0a887d !important;
+    border-color: #0a887d !important;
+}

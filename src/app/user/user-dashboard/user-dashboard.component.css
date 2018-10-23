@@ -1,0 +1,14 @@
+.jumbotron
+{
+    background:none;
+    border: 1px solid #d1d5da;
+    padding: 2rem;
+}
+.display-4
+{
+    font-size: 2rem;
+}
+.nav-link
+{
+    color:white !important;
+}

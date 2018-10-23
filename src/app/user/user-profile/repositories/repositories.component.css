@@ -1,0 +1,23 @@
+.repo-title
+{
+    font-size:18px; 
+    color:#0366d6;
+}
+.repo-body
+{
+    font-size:15px;
+    color: #586069;
+}
+
+@media (max-width: 395px)
+{
+	.repo-title
+	{
+		font-size: 13px;		
+    }
+    .repo-body
+    {
+        font-size: 12px;
+    }
+    
+}

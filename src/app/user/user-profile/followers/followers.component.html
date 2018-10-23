@@ -1,0 +1,15 @@
+  <div *ngFor="let follow of followers;let first=first; let last=last" class="col-12 use-repo">
+    <div class="row">
+      <div class="col-md-1 col-2">
+        <img class="img-fluid rounded-2" width="50" height="50" style="border-radius:3px;" [src]="follow.avatar_url" alt="Card image cap">
+      </div>
+      <div class="col-md-11 col-10">
+        <a class="repo-title" [routerLink]="['/dashboard',follow.login]"><b>{{follow.login}}</b></a>
+      </div>
+    </div>
+    <hr style="border-color: #eaecef;" *ngIf='!last'>
+  </div>
+
+
+
+

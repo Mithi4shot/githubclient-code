@@ -1,0 +1,6 @@
+
+  <div *ngFor="let gist of gists; let first=first; let last=last" class="col-12 use-repo">
+    <a class="repo-title" [href]='gist.html_url'><b>{{gist.id}}</b></a>
+    <hr style="border-color: #eaecef;" *ngIf='!last'>
+  </div>
+

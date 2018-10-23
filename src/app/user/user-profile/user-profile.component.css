@@ -1,0 +1,66 @@
+.pr-3
+{
+    margin-top: 16px;
+    
+}
+.avatar
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.rounded-2
+{
+    border-radius: 3px !important;
+}
+.tab-pane
+{
+    padding-top: 16px;
+}
+.use-repo
+{
+    padding: 0;    
+}
+.nav-link
+{
+    color: #0366d6;
+}
+.enable
+{
+    color: #007bff;
+}
+.dropdown-menu
+{
+    min-width: 12.8rem;
+}
+
+    
+@media (max-width: 576px)
+{
+    .mr-sm-2
+    {
+        margin-right: .5rem!important;
+    }    
+}
+
+@media (max-width: 395px)
+{
+	.nav-link
+	{
+		font-size: 13px;		
+    }
+    h4
+    {
+        font-size: 20px;
+    }
+    h6
+    {
+        font-size: 12px;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+}
